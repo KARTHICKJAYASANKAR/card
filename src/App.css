@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ephesis&family=Quicksand&family=Sofia+Sans:wght@400;800&family=Titillium+Web:wght@300&display=swap');
+
+body{
+    background-color: rgba(19, 19, 27, 0.986)32;
+}
+
+.logo{
+    width:45%;
+    height:7em;
+    margin: 7% 7% 0% 7%;
+    position: relative;
+    left: 20%;
+}
+.heading{
+    font-family: 'Ephesis', cursive;
+    color: aliceblue;
+    /* position: absolute;
+    left: 20%;
+    top: 16%; */
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+}
+.card-outer{
+    min-height: 100vh;
+    background-color: #121212;
+}
+
+.reg-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:  #121212;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+.buttons{
+    padding: 5%;
+    margin: 7%;
+    border-radius: 0.7em;
+    background-color: #D6D7DC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #121212;
+    font-size: .9em;
+    font-weight:bolder;
+}
+.reg-div{
+    display: flex;
+    justify-content: center;
+}
+.reg-btn{
+    padding: 3%;
+    margin: 3.5%;
+    border-radius: 0.7em;
+    background-color:rgb(233, 182, 53);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(214, 214, 8), 220, 214;
+    font-size: .9em;
+    font-weight:bolder;
+    width: 7em;
+    height: 3.3em;
+}
+
+
+.reg-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 15em;
+    border: 2px solid #D6D7DC;
+    width: 20em;
+    border-radius: .6em;
+}
+.back-btn-div{
+    width: 20em;
+    margin: 0.5em;
+}
+.back-btn{
+    border-radius: .4em;
+    background-color:rgb(233, 182, 53);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(214, 214, 8), 220, 214;
+    font-size: .9em;
+    font-weight:bolder;
+    width: 4em;
+    border: 1px solid black;
+    padding: .7em;
+}
+.reg-input{
+    border: 2px solid rgb(236, 232, 232);
+    background-color: rgb(236, 232, 232);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
